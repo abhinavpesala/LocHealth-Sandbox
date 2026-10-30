@@ -5,5 +5,4 @@ This sandbox application provides an end-to-end framework to **build low-fidelit
 
 
 APP URL:
-https://clinicscreen.ai.studio
 https://lochealth.ai.studio
