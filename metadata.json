@@ -1,0 +1,6 @@
+{
+  "name": "ClinicScreen Sandbox",
+  "description": "Healthcare IT localization testing platform for Primary Health Centres in India. Build prototypes, test with PHC doctors across Hindi, Telugu, and Marathi, track hesitation telemetry, and generate RFP Localization Fit Scorecards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

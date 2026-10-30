@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-fallback: 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Telugu', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', var(--font-fallback);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Specific non-Latin script font family classes */
+  .font-indic-hi, .font-indic-mr {
+    font-family: 'Noto Sans Devanagari', 'Plus Jakarta Sans', sans-serif;
+    line-height: 1.6;
+  }
+
+  .font-indic-te {
+    font-family: 'Noto Sans Telugu', 'Plus Jakarta Sans', sans-serif;
+    line-height: 1.65;
+  }
+}
+
+/* Print styles for government RFP reports */
+@media print {
+  header, nav, .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .page-break {
+    page-break-before: always;
+  }
+}
