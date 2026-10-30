@@ -1,6 +1,6 @@
 {
-  "name": "ClinicScreen Sandbox",
-  "description": "Healthcare IT localization testing platform for Primary Health Centres in India. Build prototypes, test with PHC doctors across Hindi, Telugu, and Marathi, track hesitation telemetry, and generate RFP Localization Fit Scorecards.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "name": "LocHealth Sandbox",
+  "description": "A comprehensive sandbox environment for local health management system prototyping, tracking clinic metrics, scorecards, and data building tools.",
+  "version": "1.0.0",
+  "entryPoint": "index.html"
 }
